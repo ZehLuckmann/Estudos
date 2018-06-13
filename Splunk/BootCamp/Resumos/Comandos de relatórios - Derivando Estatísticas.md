@@ -98,7 +98,8 @@ Exemplo:
 		 by usage
 		 
 #### _list(field)_ e _values(field)
-* Lista todos os valores para um campo especifico
+* _list_ Lista todos os valores para um campo especifico
+* _values_ Lista os valores únicos para um campo específico
 Exemplo:
 		sourcetype=cisco_wsa_squid
 		| stats list(s_hostname) as "Websites visited: "
@@ -116,6 +117,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU2ODA1OTcsOTIwODI0NzExLDEwNT
+eyJoaXN0b3J5IjpbLTExOTA0MDQxNTgsOTIwODI0NzExLDEwNT
 k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
