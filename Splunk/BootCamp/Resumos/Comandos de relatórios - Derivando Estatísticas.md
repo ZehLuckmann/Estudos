@@ -91,9 +91,11 @@ Exemplo:
 Exemplo:
 
 		sourcetype=vendor_sales
-		|dedup Vendor
-		|table VendorCountry, VendorStateProvince, VendorCity, Vendor
+		| dedup Vendor
+		| table VendorCountry, VendorStateProvince, VendorCity, Vendor
+		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTc3NTIwMCw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbMTQ5NzYwNDQ1OCw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
