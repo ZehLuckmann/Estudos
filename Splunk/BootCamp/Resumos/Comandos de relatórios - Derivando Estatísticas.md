@@ -83,6 +83,9 @@ Exemplo:
 		sourcetype=cisco_wsa_squid
 		| stats dc(s_hostname) as "Websites visited"
 		
+#### _sum(field)_
+* Para campos que contenham um valor num
+
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
@@ -96,6 +99,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzYwNDQ1OCw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbLTE1MjU4NjA2NSw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
