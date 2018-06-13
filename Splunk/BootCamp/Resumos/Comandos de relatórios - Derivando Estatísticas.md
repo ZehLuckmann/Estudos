@@ -6,7 +6,7 @@ Nesse módulo você vai aprender sobre os seguintes comandos:
 *  _stats_ - Calcula as estatísticas nos eventos que coincidem com seus parâmetros de pesquisa
 
 ### Comando _top_ e _rare_
-O comando _top_ busca os valores mais comuns do seu resultado, enquanto o _rare_ busca  :
+O comando _top_ busca os valores mais comuns do seu resultado, enquanto o _rare_ busca os resultados mais incomuns :
 *  Por padrão exibe os registros em forma de tabela
 * Automaticamente retorna as colunas de contagem e porcentagem
 * Adicionando `limit=#` depois do comando _top_, retorna um numero específico de resultados
@@ -113,6 +113,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzQ5NTEyMCw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbLTM3MDQ0Njk4Miw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
