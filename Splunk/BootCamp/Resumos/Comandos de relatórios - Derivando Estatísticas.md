@@ -1,4 +1,9 @@
 # Comandos de Relatórios - Derivando Estatísticas 
+
+
+----------
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbMTIzMzMzODQxOSw3MDk5OTU3NTddfQ==
 -->
