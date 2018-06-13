@@ -12,7 +12,7 @@ index="buttercupgames" action=purchase
 | timechart count(productId) by categoryId
 ```
 
-## Area Charts
+## Gráfico de Área
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
@@ -22,7 +22,7 @@ index="buttercupgames" action=purchase
 | timechart count(productId) by categoryId
 ```
 
-## Column Charts
+## Gráfico de Colunas
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
@@ -32,7 +32,7 @@ index="buttercupgames" action=purchase
 | timechart count(productId) by categoryId
 ```
 
-## Bar Charts
+## Gráfico de Barras
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
@@ -42,7 +42,7 @@ index="buttercupgames" action=purchase
 | timechart count(productId) by categoryId
 ```
 
-## Pie Charts
+## Gráfico de Pizza
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
@@ -55,7 +55,7 @@ index="buttercupgames" "action=purchase"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDk3MDI4Miw4MTE1Nzk0OTYsNTA3OD
-Y0Mjg5LC0xMDMzMTI3ODQsLTIwODQwNTA2NzgsMTY2OTAxODg1
-NywyMzIxNzEzMTNdfQ==
+eyJoaXN0b3J5IjpbLTE3Njc4OTgwMzUsODExNTc5NDk2LDUwNz
+g2NDI4OSwtMTAzMzEyNzg0LC0yMDg0MDUwNjc4LDE2NjkwMTg4
+NTcsMjMyMTcxMzEzXX0=
 -->
