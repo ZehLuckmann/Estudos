@@ -10,7 +10,9 @@ Nesse módulo você vai aprender sobre os seguintes comandos:
 ### Buscando os valores mais comuns
 
 O comando _top_ busca os valores mais comuns do seu resultado
-* Por padrão ele retorna 10 resultados 
+* Por padrão ele retorna 10 resultados
+*  Por padrão exibe os registros em forma de tabela
+* Automaticamente retorna as colunas de contagem e a porcentagem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjI5NTA2LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbOTQwNzQ0MjYxLDcwOTk5NTc1N119
 -->
