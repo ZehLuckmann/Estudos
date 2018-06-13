@@ -32,8 +32,13 @@ Exemplos:
 
 ### Comando _rare_
 O comando retorna os registros que menos aparecem nos seus dados
-* Opções identicas ao comando _top_
+* Opções idênticas ao comando _top_
+Exemplo:
+		
+		sourcetype=cisco_wsa_squid
+		| rare sowperc=0 limit=1 s_hostname 
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzY1NDI2MSw5ODA4MTA1NDcsNzA5OT
+eyJoaXN0b3J5IjpbMTczOTYwNjY2Niw5ODA4MTA1NDcsNzA5OT
 k1NzU3XX0=
 -->
