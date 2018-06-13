@@ -55,7 +55,13 @@ Exemplos:
 
 	sourcetype=vendor_sales
 	|stats count
+	
+	sourcetype=vendor_sales
+	|stats count as "Number of Retail Store Purchases"
+
+#### _count(field)_
+* Adicionando 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzgyNDI0NDQsOTgwODEwNTQ3LDcwOT
-k5NTc1N119
+eyJoaXN0b3J5IjpbLTY5NjIzMDc4Miw5ODA4MTA1NDcsNzA5OT
+k1NzU3XX0=
 -->
