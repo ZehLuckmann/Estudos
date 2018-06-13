@@ -94,6 +94,9 @@ Exemplo:
 Exemplo:
 		
 		sourcetype=cisco_wsa_squid
+		| stats avg(sc_bytes) as "Average Bytes"
+		 by usage
+		 
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
@@ -106,6 +109,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTM5NjcyNiw5MjA4MjQ3MTEsMTA1OT
-k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbLTIwMTgwNTQ2NDgsOTIwODI0NzExLDEwNT
+k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
