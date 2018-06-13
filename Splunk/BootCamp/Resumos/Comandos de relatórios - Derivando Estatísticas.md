@@ -69,8 +69,10 @@ Exemplos:
 	| stats count(action) as ActionEvents,
 	count as TotalEvents
 	
-	sourcetype=acess_combined act	
+	sourcetype=acess_combined action=*
+	| stats count(eval(action="view")) as Views,
+	  count(eval(action="purchase")) as Purchases	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTgzMDc2MSwxMDU5OTk2NDgyLDk4MD
-gxMDU0Nyw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbNjQ4NjQ1NjMsMTA1OTk5NjQ4Miw5ODA4MT
+A1NDcsNzA5OTk1NzU3XX0=
 -->
