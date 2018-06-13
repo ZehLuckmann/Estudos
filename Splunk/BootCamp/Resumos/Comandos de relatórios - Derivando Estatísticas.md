@@ -47,7 +47,10 @@ Exemplo:
 	* _avg_ - Retorna a média de um campo numérico
 	* _list_ - Lista todos os valores de um campo específico
 	* _values_ Lista valores exclusivos de um determinado campo
+
+#### _count_
+* Retorna o número de eventos baseado no critério de pesquisa informado
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDA2ODk3NSw5ODA4MTA1NDcsNzA5OT
-k1NzU3XX0=
+eyJoaXN0b3J5IjpbLTE2NjIzNDYzNjgsOTgwODEwNTQ3LDcwOT
+k5NTc1N119
 -->
