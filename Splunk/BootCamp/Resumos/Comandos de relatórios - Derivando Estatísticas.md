@@ -97,7 +97,7 @@ Exemplo:
 		| stats avg(sc_bytes) as "Average Bytes"
 		 by usage
 		 
-#### _list(field)_
+#### _list(field)_ e _values(field)
 * Lista todos os valores para um campo especifico
 Exemplo:
 		sourcetype=cisco_wsa_squid
@@ -116,6 +116,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Mjk0NjQ0LDkyMDgyNDcxMSwxMDU5OT
-k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbLTE2ODU2ODA1OTcsOTIwODI0NzExLDEwNT
+k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
