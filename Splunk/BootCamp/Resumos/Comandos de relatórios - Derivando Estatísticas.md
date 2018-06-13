@@ -1,21 +1,18 @@
 # Comandos de Relatórios - Derivando Estatísticas 
 
 ## Reporting Commands
-
 Nesse módulo você vai aprender sobre os seguintes comandos:
 * _top_ - A busca mostra os registros mais comuns, na ordem decrescente da contagem
 * _rare_ - A busca mostra os registros menos comuns, na ordem crescente da contagem
 *  _stats_ - Calcula as estatísticas nos eventos que coincidem com seus parâmetros de pesquisa
 
 ### Comando _top_
-
 O comando _top_ busca os valores mais comuns do seu resultado:
 *  Por padrão exibe os registros em forma de tabela
 * Automaticamente retorna as colunas de contagem e porcentagem
 * Adicionando `limit=#` depois do comando _top_, retorna um numero específico de resultados
 	* Por padrão, 10 registros são exibidos
 	* `limit=0` remove o limite de registros
-
 Exemplos:
 
 	sourcetype=linux_secure password fail*
@@ -49,7 +46,6 @@ Exemplo:
 	* _values_ Lista valores exclusivos de um determinado campo
 
 #### _count_
-
 * Retorna o número de eventos baseado no critério de pesquisa informado
 * Use a clausula _as_ para renomear o campo de conta
 * Adicionando o argumento field ao comando _count(field)_, retorna o número de eventos deste campo
@@ -59,9 +55,8 @@ Exemplo:
 	* Valor do campo é case-sensitive
 
 Exemplos:
-
-	sourcetype=vendor_sales
-	|stats count
+		sourcetype=vendor_sales
+		|stats count
 
 	sourcetype=vendor_sales
 	|stats count as "Number of Retail Store Purchases"
@@ -73,24 +68,26 @@ Exemplos:
 	sourcetype=acess_combined action=*
 	| stats count(eval(action="view")) as Views,
 	  count(eval(action="purchase")) as Purchases
-#### 	_by fields_
 
+#### 	_by fields_
 * A cláusula _by_ retorna uma contagem para um campo ou grupo de campos
 Exemplo:
+
 		sourcetype=vendor_sales
 		| stats count as quantify by product_name, price
 
 
 #### _distinct_count(field)_ ou _dc()_
-
 *  Fornece uma contagem de quantos valores exclusivos existem para um dado campo no conjunto de resultados
 Exemplo: 
+
 		sourcetype=cisco_wsa_squid
 		| stats dc(s_hostname) as "Websites visited"
 		
 #### _sort_
-*
+
+*  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MDM4MDc5LDkyMDgyNDcxMSwxMDU5OT
-k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbMTUyMzg2MjM3Myw5MjA4MjQ3MTEsMTA1OT
+k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
