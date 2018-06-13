@@ -62,7 +62,7 @@ Custommer IP | Web Server | HTTP Status
 	Resultado: 
 	<Escreva sua consulta aqui>
 
-Cenário: Verifique se há problemas com compras de clientes na loja on-line.
+#### Cenário: Adicione sua pesquisa em um novo dashboard.
 5. Salve sua pesquisa como um relatório L2S1
 6. Na opção __Save As__ do menu, selecione __Dashboard Panel__
 7. Salve o dashboard com estes valores
@@ -74,6 +74,6 @@ Cenário: Verifique se há problemas com compras de clientes na loja on-line.
 8. 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1ODMwMzg5LC0xMjE3NzA5MjEzLC0xMz
+eyJoaXN0b3J5IjpbNTk1OTg2Nzg2LC0xMjE3NzA5MjEzLC0xMz
 UxMjQ3OTA1XX0=
 -->
