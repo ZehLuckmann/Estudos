@@ -17,22 +17,22 @@ O comando _top_ busca os valores mais comuns do seu resultado:
 	* `limit=0` remove o limite de registros
 
 Exemplos:
-```
-sourcetype=linux_secure password fail*
-| top src
-```
-```
-sourcetype=acess_combined action=purchase
-| top product_name
-```
-```
-sourcetype=acess_combined action=purchase
-| top host, product_name limit = 3 countfield= "Units Sold" showperc=f
-```
-```
-sourcetype=acess_combined action=purchase
-| top product_name by host limit = 3 countfield= "Units Sold" showperc=f
-```
+
+	sourcetype=linux_secure password fail*
+	| top src
+	
+	
+	sourcetype=acess_combined action=purchase
+	| top product_name
+
+
+	sourcetype=acess_combined action=purchase
+	| top host, product_name limit = 3 countfield= "Units Sold" showperc=f
+
+
+	sourcetype=acess_combined action=purchase
+	| top product_name by host limit = 3 countfield= "Units Sold" showperc=f
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAxMzk1NTcsNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbLTg1OTM4NTY5Myw3MDk5OTU3NTddfQ==
 -->
