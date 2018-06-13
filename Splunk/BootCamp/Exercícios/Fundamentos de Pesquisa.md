@@ -75,8 +75,9 @@ Custommer IP | Web Server | HTTP Status
 
 #### Cenário: Além de supervisionar a integridade do servidor, verifique como os funcionários estão usando recursos corporativos. 
 1. Procure por eventos de dispositivos que estão conectados `sourcetype=cisco_wsa_squid`
-2. Cria uma _table_ com os dispositivos e seus respectivos usuários `username` 
+2. Cria uma _table_ com os dispositivos e seus respectivos usuários `username` e `usage`
+3. Salve sua pesquisa como um relatório L2S2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE0OTM0NTMsLTEyMTc3MDkyMTMsLT
+eyJoaXN0b3J5IjpbLTE4OTg1MTMyOTcsLTEyMTc3MDkyMTMsLT
 EzNTEyNDc5MDVdfQ==
 -->
