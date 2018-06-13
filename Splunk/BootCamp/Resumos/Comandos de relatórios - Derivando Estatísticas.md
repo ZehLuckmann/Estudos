@@ -38,7 +38,9 @@ Exemplo:
 		sourcetype=cisco_wsa_squid
 		| rare sowperc=0 limit=1 s_hostname 
 		
+### Comando _stats_
+* _stats_ permite que você calcule estátisticas e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTYwNjY2Niw5ODA4MTA1NDcsNzA5OT
-k1NzU3XX0=
+eyJoaXN0b3J5IjpbLTEyMTU3NjExMTIsOTgwODEwNTQ3LDcwOT
+k5NTc1N119
 -->
