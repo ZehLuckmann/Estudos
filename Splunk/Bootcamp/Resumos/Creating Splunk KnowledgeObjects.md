@@ -42,13 +42,17 @@ Pesquisas são formadas basicamente de 5 componentes
 * __Clausulas__ - Como você deseja agrupar ou chamar os campos no resultado?
     * Renomear um campo, ou agrupar os valores a partir de determinado campo
 
-#### Exemplo de pesquisa:
+Exemplo de pesquisa:
 ```
-sourcetype=acess_* status=503 | stats sum(price) as lost_revenue | fieldformat lost_revenue = "$" + tostring(lost_renevue, "commas")    
+sourcetype=acess_* status=503 
+| stats sum(price) as lost_revenue 
+| fieldformat lost_revenue = "$" + tostring(lost_renevue, "commas")    
 ```
 
 ```
-sourcetype=linux* failed password | top user | fields - percent
+sourcetype=linux* failed password 
+| top user 
+| fields - percent
 ```
 
 ### Comando _fields_
@@ -62,4 +66,75 @@ sourcetype=linux* failed password | top user | fields - percent
     * Ocorre após a extração de campos
     * Não melhora a performance
     * Exclui os campos usados na pesquisa, para tornar mais fácil de ler
-* _fields_ não inclue os campos internos (_raw, _time)
+* _fields_ não inclue os campos internos (\_raw, \_time), mas pode ser usado para remover os mesmos
+
+Exemplo de pesquisa:
+```
+sourcetype=acess_combined 
+| fields clientip, referer_domain
+```
+
+### Criando uma tabela
+
+* O comando _table_ retorna uma tabela, formada apenas pelos campos usados na lista de argumentos
+* Colunas são exibidas na ordem que estão no comando
+    * Cabeçalho da coluna é o nome dos campos
+    * Cada linha é um evento
+    * Linhas são alimentadas com os valores dos campos
+
+### Renomeando campos
+
+* Para mudar o nome de um campo, use o comando _rename_
+* Útil para dar aos campos, nomes mais apresentáveis
+* Quando usar espaços ou caracteres especiais em um nome, use aspas:
+    1. `rename productId as "Id do Produto"`
+    1. `rename action as "Ação do cliente"`
+    1. `rename status as "HTTP Status"`
+
+Exemplo de pesquisa:
+```
+sourcetype=acess_combined
+| table productId, status
+| raname productId as "Id do produto"
+  status as "HTTP Status"
+```
+
+### Comando para extração de campos
+
+* Comando _erex_
+    * Você não precisa conhecer expressões regulares para usar
+    * Você precisa de valores de exemplo em seus eventos para usar
+* Comando _rex_
+    * Você precisa escrever o regex
+    * Persiste apenas durante a pesquisa
+    * Não persiste como um objeto de conhecimento
+    * Bom para campos que raramente aparecem
+
+Exemplo de pesquisa:
+```
+sourcetype=linux_secure port "failed password"
+| erex port examples="4945,3136"
+| table src, port
+```
+
+```
+sourcetype=cisco_esa mailfrom=*
+| rex "\<?<potentialAttacker>.*)@"
+| table potentialAttacker
+```
+
+### Extração de campos de um evento com formatação de tabela
+
+* Muitos tipos de dados são formatados em um único evento em formato de tabela
+* Cada evento contem títulos com valores tabulados
+    * O nome dos campos são derivados da lita de título; todas as outras linhas representam os valores
+* Usando o comando _multikv_
+    * O comando _multikv_ extraí o campo que você especificar
+    * _multikiv_ cria um novo evento para cada linha
+
+Exemplo de pesquisa:
+```
+sourcetype=ps
+| multikv fields USER pctCPU COMMAND
+| table USER, pctCPU, COMMAND
+```
