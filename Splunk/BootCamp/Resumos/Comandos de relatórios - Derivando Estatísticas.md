@@ -97,6 +97,8 @@ Exemplo:
 		| stats avg(sc_bytes) as "Average Bytes"
 		 by usage
 		 
+#### _list(field)_
+* Lista todos os valores para um campo especifico
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
@@ -109,6 +111,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgwNTQ2NDgsOTIwODI0NzExLDEwNT
+eyJoaXN0b3J5IjpbLTIxMDg2ODk2MzcsOTIwODI0NzExLDEwNT
 k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
