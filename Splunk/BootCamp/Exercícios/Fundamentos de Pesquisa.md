@@ -52,8 +52,17 @@ Custommer IP | Web Server | HTTP Status
 	
 	Resultado: 
 	<Escreva sua consulta aqui>
+
 4. Modifique a consulta para retornar os valores com o `status > 399`
+
+Custommer IP | Web Server | HTTP Status
+---------|------|--------|--------
+125.7.55.180|www3|503
+84.34.159.23|www1|400
+	
+	Resultado: 
+	<Escreva sua consulta aqui>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc3MDkyMTMsLTEzNTEyNDc5MDVdfQ
-==
+eyJoaXN0b3J5IjpbMTQwMjQ5NjY4MCwtMTIxNzcwOTIxMywtMT
+M1MTI0NzkwNV19
 -->
