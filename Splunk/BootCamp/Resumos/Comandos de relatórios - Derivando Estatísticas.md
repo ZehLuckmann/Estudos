@@ -77,15 +77,17 @@ Exemplos:
 
 * A cláusula _by_ retorna uma contagem para um campo ou grupo de campos
 Exemplo:
-
 		sourcetype=vendor_sales
 		| stats count as quantify by product_name, price
 
 
 #### _distinct_count(field)_ ou _dc()_
 
-* 
+*  Fornece uma contagem de quantos valores exclusivos existem para um dado campo no conjunto de resultados
+
+Exemplo: 
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTc1OTMzNiwxMDU5OTk2NDgyLDk4MD
+eyJoaXN0b3J5IjpbMTIyODU0MTg2NSwxMDU5OTk2NDgyLDk4MD
 gxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
