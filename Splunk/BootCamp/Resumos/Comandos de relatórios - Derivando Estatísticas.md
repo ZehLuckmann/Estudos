@@ -76,8 +76,11 @@ Exemplos:
 #### 	_by fields_
 
 * A cláusula _by_ retorna uma contagem para um campo ou grupo de campos
-* 
+Exemplo:
+
+		sourcetype= 
+		| stats count
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMTk2ODk2LDEwNTk5OTY0ODIsOTgwOD
-EwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMTI3NjA0OTA2MCwxMDU5OTk2NDgyLDk4MD
+gxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
