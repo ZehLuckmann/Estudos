@@ -3,8 +3,9 @@
 ## Reporting Commands
 
 Nesse módulo você vai aprender sobre os seguintes comandos:
-* _top_ - A busca mostra os registros com os valores mais comuns, em ordem decrescente da contagem
-* __rare__ - A busca mostra os registros menos comuns
+* _top_ - A busca mostra os registros mais comuns, na ordem decrescente da contagem
+* _rare_ - A busca mostra os registros menos comuns, na ordem crescente da contagem
+*  _stats_ - Calcula as estatísticas nos eventos que coincidem com 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MzQ5ODU5LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMTgzODc3Mzc5NSw3MDk5OTU3NTddfQ==
 -->
