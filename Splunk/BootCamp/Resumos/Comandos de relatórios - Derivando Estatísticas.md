@@ -106,7 +106,7 @@ Exemplo:
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
 * Para limitar os resultados use a opção `limit`
 Exemplo:
-
+```
 		sourcetype=vendor_sales
 		| dedup Vendor
 		| table VendorCountry, VendorStateProvince, VendorCity, Vendor
@@ -119,14 +119,15 @@ Exemplo:
 	* Se nenhum campo for especificado, todos os campos serão totalizados
 	* Para selecionar quais colunas você deseja totalizar use : `addcoltotals field1, field2, field3`
 Exemplo:
-
-		sourcetype=acess_combined
-		| stats sum(bytes) as totalBytes,
-		| avg(bytes) as avgBytes,
-		count as totalEvents by host
-		| addcoltotals totalBytes, totalEvents
-	      labelfield=host label=TOTALS
+``
+sourcetype=acess_combined
+| stats sum(bytes) as totalBytes,
+| avg(bytes) as avgBytes,
+count as totalEvents by host
+| addcoltotals totalBytes, totalEvents
+     labelfield=host label=TOTALS
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA4NTQwMDEsOTIwODI0NzExLDEwNT
-k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMzkyNDQ4NDY3LDkyMDgyNDcxMSwxMDU5OT
+k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
