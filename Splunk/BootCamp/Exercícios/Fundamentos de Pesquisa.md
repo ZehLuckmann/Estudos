@@ -52,7 +52,8 @@ Custommer IP | Web Server | HTTP Status
 	
 	Resultado: 
 	<Escreva sua consulta aqui>
-4. Modifique a consulta para retornar os valores com 
+4. Modifique a consulta para retornar os valores com o `status > 399`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTIyOTIzMSwtMTM1MTI0NzkwNV19
+eyJoaXN0b3J5IjpbLTEyMTc3MDkyMTMsLTEzNTEyNDc5MDVdfQ
+==
 -->
