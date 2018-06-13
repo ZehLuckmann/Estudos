@@ -39,8 +39,10 @@ Exemplo:
 		| rare sowperc=0 limit=1 s_hostname 
 		
 ### Comando _stats_
-* _stats_ permite que você calcule estátisticas e
+* _stats_ permite que você calcule estatísticas em cima dos registros que corresponderem a sua consulta
+* As funções mais comuns são:
+	* _count_ - Conta o número de eventos que corresponde a consu 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU3NjExMTIsOTgwODEwNTQ3LDcwOT
+eyJoaXN0b3J5IjpbLTExMTM0ODY4MTYsOTgwODEwNTQ3LDcwOT
 k5NTc1N119
 -->
