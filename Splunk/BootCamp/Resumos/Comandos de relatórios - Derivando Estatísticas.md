@@ -7,7 +7,7 @@ Nesse módulo você vai aprender sobre os seguintes comandos:
 * _rare_ - A busca mostra os registros menos comuns, na ordem crescente da contagem
 *  _stats_ - Calcula as estatísticas nos eventos que coincidem com seus parâmetros de pesquisa
 
-### Buscando os valores mais comuns
+### Comando _top_
 
 O comando _top_ busca os valores mais comuns do seu resultado:
 *  Por padrão exibe os registros em forma de tabela
@@ -17,22 +17,22 @@ O comando _top_ busca os valores mais comuns do seu resultado:
 	* `limit=0` remove o limite de registros
 
 Exemplos:
-``
+```
 sourcetype=linux_secure password fail*
 | top src
-``
-``
+```
+```
 sourcetype=acess_combined action=purchase
 | top product_name
-``
-``
+```
+```
 sourcetype=acess_combined action=purchase
 | top host, product_name limit = 3 countfield= "Units Sold" showperc=f
-``
-``
+```
+```
 sourcetype=acess_combined action=purchase
 | top product_name by host limit = 3 countfield= "Units Sold" showperc=f
-``
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDc4MzA4OSw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbLTEwMzAxMzk1NTcsNzA5OTk1NzU3XX0=
 -->
