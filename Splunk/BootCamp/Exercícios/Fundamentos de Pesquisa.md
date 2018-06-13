@@ -77,11 +77,11 @@ Custommer IP | Web Server | HTTP Status
 
 Resultado Final:
 
-	username|usage
----------------------
-	gzuyeva|Unknown
-	gzuyeva|Unknown
-	moh|personal
+username|usage
+------------|--------
+gzuyeva|Unknown
+gzuyeva|Unknown
+moh|personal
 moh|personal
 moh|personal
 1. Procure por eventos de dispositivos que estão conectados `sourcetype=cisco_wsa_squid`
@@ -90,6 +90,6 @@ moh|personal
 
 #### Cenário: Extraia o nome do domínio dos dados de email em um campo chamado domínio.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDY1NjI2NywtMTIxNzcwOTIxMywtMT
-M1MTI0NzkwNV19
+eyJoaXN0b3J5IjpbLTE2MTEyNzM1MzIsLTEyMTc3MDkyMTMsLT
+EzNTEyNDc5MDVdfQ==
 -->
