@@ -2,7 +2,7 @@
 
 Ao obter valores estatísticos, é possível exibir estes resultados em diversos formatos
 
-## Line Charts
+## Gráfico de linha
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
@@ -55,7 +55,7 @@ index="buttercupgames" "action=purchase"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc4OTgwMzUsODExNTc5NDk2LDUwNz
+eyJoaXN0b3J5IjpbLTEwNzkxNDUwODIsODExNTc5NDk2LDUwNz
 g2NDI4OSwtMTAzMzEyNzg0LC0yMDg0MDUwNjc4LDE2NjkwMTg4
 NTcsMjMyMTcxMzEzXX0=
 -->
