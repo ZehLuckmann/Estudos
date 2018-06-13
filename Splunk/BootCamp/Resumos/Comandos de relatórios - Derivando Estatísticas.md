@@ -88,7 +88,9 @@ Exemplo:
 		sourcetype=cisco_wsa_squid
 		| stats dc(s_hostname) as "Websites visited"
 		
+#### _sort_
+*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwODI0NzExLDEwNTk5OTY0ODIsOTgwOD
-EwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbNDI4MDM4MDc5LDkyMDgyNDcxMSwxMDU5OT
+k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
