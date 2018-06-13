@@ -116,8 +116,9 @@ Exemplo:
 * Faz a soma de todos os campos numéricos do seu conjunto de resultado
 	* Adiciona um totalizador no final da coluna
 	* Para um nome para a linha use `labelfield=<field>`
-	* Se nenhum campo for específi 
+	* Se nenhum campo for especificado, todos os campos serão totalizados
+	* Para selecionar quais colunas você deseja totalizar use : `addcoltotals field1, field2` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzczMTEyMyw5MjA4MjQ3MTEsMTA1OT
-k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbLTIwNjc5NDUxNTMsOTIwODI0NzExLDEwNT
+k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
