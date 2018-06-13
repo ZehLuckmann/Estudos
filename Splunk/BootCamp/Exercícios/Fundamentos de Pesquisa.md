@@ -52,7 +52,7 @@ Custommer IP | Web Server | HTTP Status
 	
 	Resultado: 
 	<Escreva sua consulta aqui>
-4. Mod
+4. Modifique a consulta para retornar os valores com 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTczMzAyNCwtMTM1MTI0NzkwNV19
+eyJoaXN0b3J5IjpbLTU5MTIyOTIzMSwtMTM1MTI0NzkwNV19
 -->
