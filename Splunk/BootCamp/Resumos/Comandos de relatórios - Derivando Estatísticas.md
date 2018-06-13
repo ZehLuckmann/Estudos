@@ -48,6 +48,7 @@ Exemplos:
 	* Aspas duplas são necessárias para o valor do campo
 	* Valor do campo é case-sensitive
 Exemplos:
+```
 		sourcetype=vendor_sales
 		|stats count
 
@@ -61,37 +62,36 @@ Exemplos:
 	sourcetype=acess_combined action=*
 	| stats count(eval(action="view")) as Views,
 	  count(eval(action="purchase")) as Purchases
-
+```
 #### 	_by fields_
 * A cláusula _by_ retorna uma contagem para um campo ou grupo de campos
 Exemplo:
-
-		sourcetype=vendor_sales
-		| stats count as quantify by product_name, price
-
-
+```
+sourcetype=vendor_sales
+| stats count as quantify by product_name, price
+```
 #### _distinct_count(field)_ ou _dc()_
 *  Fornece uma contagem de quantos valores exclusivos existem para um dado campo no conjunto de resultados
 Exemplo: 
 ```
 sourcetype=cisco_wsa_squid
 | stats dc(s_hostname) as "Websites visited"
-``		
+```
 #### _sum(field)_
 * Para campos que contenham um valor numérico, você pode usar para somar
 Exemplo:
 ```
-		sourcetype=cisco_wsa_squid
-		| stats sum(sc_bytes) as Bandwidth by s_hostname
-		| sort -Bandwidth
+sourcetype=cisco_wsa_squid
+| stats sum(sc_bytes) as Bandwidth by s_hostname
+| sort -Bandwidth
 ```
 #### _avg(field)_
 * Retorna a média de um determinado campo numérico
 Exemplo:
 ```
-	sourcetype=cisco_wsa_squid
-	| stats avg(sc_bytes) as "Average Bytes"	
-	by usage
+sourcetype=cisco_wsa_squid
+| stats avg(sc_bytes) as "Average Bytes"	
+by usage
 ```
 #### _list(field)_ e _values(field)
 * _list_ Lista todos os valores para um campo especifico
@@ -129,6 +129,6 @@ count as totalEvents by host
      labelfield=host label=TOTALS
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQxODM4MDUsOTIwODI0NzExLDEwNT
-k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMTg3ODE3OTY3LDkyMDgyNDcxMSwxMDU5OT
+k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
