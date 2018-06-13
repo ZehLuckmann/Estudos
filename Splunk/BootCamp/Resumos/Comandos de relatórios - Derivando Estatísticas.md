@@ -28,7 +28,8 @@ Exemplos:
 
 	sourcetype=cisco_wsa_squid
 	| rare sowperc=0 limit=1 s_hostname 
-```	
+```
+	
 ### Comando _stats_
 * _stats_ permite que você calcule estatísticas em cima dos registros que corresponderem a sua consulta
 * As funções mais comuns são:
@@ -129,6 +130,6 @@ count as totalEvents by host
      labelfield=host label=TOTALS
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMDczODk5LDkyMDgyNDcxMSwxMDU5OT
+eyJoaXN0b3J5IjpbMjMxNDE2NDA5LDkyMDgyNDcxMSwxMDU5OT
 k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
