@@ -112,7 +112,10 @@ Exemplo:
 		| table VendorCountry, VendorStateProvince, VendorCity, Vendor
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
+### Comando _addcoltotals_
+* Faz a soma de todos os campos numéricos do seu conjunto de resultado
+	* Adiciona um totali 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDQ0Njk4Miw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbLTIwODkzNjM0OSw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
