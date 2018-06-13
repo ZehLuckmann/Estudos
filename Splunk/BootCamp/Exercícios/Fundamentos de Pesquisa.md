@@ -64,8 +64,12 @@ Custommer IP | Web Server | HTTP Status
 	<Escreva sua consulta aqui>
 5. Salve sua pesquisa como um relatório L2S1
 6. Na opção __Save As__ do menu, selecione __Dashboard Panel__
-7. Salve o 
+7. Salve o dashboard com estes valores
+	* __Dashboard__: New
+	* __Dashboard Title__: IT Ops
+	* __Panel Title__: Sercer  
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MjQ4NTYxLC0xMjE3NzA5MjEzLC0xMz
-UxMjQ3OTA1XX0=
+eyJoaXN0b3J5IjpbMjEwMjU4OTA0NSwtMTIxNzcwOTIxMywtMT
+M1MTI0NzkwNV19
 -->
