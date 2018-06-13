@@ -86,8 +86,8 @@ Exemplo:
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
-* Para limitar os resultados use a opção 
+* Para limitar os resultados use a opção `limit`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTgzNjc2OCw5MjA4MjQ3MTEsMTA1OT
-k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbLTIwNzg3Mjc0NDEsOTIwODI0NzExLDEwNT
+k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
