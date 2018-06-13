@@ -43,8 +43,10 @@ Exemplo:
 * As funções mais comuns são:
 	* _count_ - Conta o número de eventos que corresponde a consulta
 	* *distinct_count*, *dc* - Retorna a contagem dos valores únicos do campo informado
-	* _sum_ - Retorna    
+	* _sum_ - Soma os valores de um campo numérico
+	* _avg_ - Retorna a média de um campo numérico
+	* _list_ - Lista todos os valores de um 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDY4MTc2Niw5ODA4MTA1NDcsNzA5OT
-k1NzU3XX0=
+eyJoaXN0b3J5IjpbLTE5OTI4ODAzOTAsOTgwODEwNTQ3LDcwOT
+k5NTc1N119
 -->
