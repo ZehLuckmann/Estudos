@@ -31,7 +31,7 @@ clientip | host | action | status
 84.34.159.23|www1|addtocart|200
 	
 	Resultado: 
-	*<Escreva sua consulta aqui>`` 
+	<Escreva sua consulta aqui>
 2. Filtrar para exibir apenas os campos com a ação de comprar `action=purchase`, e não mostrar a coluna 'action':
 	
 clientip | host | status
@@ -51,7 +51,8 @@ Custommer IP | Web Server | HTTP Status
 84.34.159.23|www1|200
 	
 	Resultado: 
-	<Escreva sua consulta aqui>``
+	<Escreva sua consulta aqui>
+4. Mod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDk1MDAwNiwtMTM1MTI0NzkwNV19
+eyJoaXN0b3J5IjpbLTUxNTczMzAyNCwtMTM1MTI0NzkwNV19
 -->
