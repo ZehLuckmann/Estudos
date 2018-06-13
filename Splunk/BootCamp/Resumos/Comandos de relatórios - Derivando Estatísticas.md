@@ -42,8 +42,9 @@ Exemplo:
 * _stats_ permite que você calcule estatísticas em cima dos registros que corresponderem a sua consulta
 * As funções mais comuns são:
 	* _count_ - Conta o número de eventos que corresponde a consulta
-	* *distinct_count*, *dc* -    
+	* *distinct_count*, *dc* - Retorna a contagem dos valores únicos do campo informado
+	*    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU2Nzg4MzEsOTgwODEwNTQ3LDcwOT
-k5NTc1N119
+eyJoaXN0b3J5IjpbLTYzNDE3NTM2Myw5ODA4MTA1NDcsNzA5OT
+k1NzU3XX0=
 -->
