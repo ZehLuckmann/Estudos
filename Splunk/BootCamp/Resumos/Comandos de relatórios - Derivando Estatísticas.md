@@ -5,8 +5,8 @@ Nesse módulo você vai aprender sobre os seguintes comandos:
 * _rare_ - A busca mostra os registros menos comuns, na ordem crescente da contagem
 *  _stats_ - Calcula as estatísticas nos eventos que coincidem com seus parâmetros de pesquisa
 
-### Comando _top_
-O comando _top_ busca os valores mais comuns do seu resultado:
+### Comando _top_ e _rare_
+O comando _top_ busca os valores mais comuns do seu resultado, enquanto o _rare_ busca  :
 *  Por padrão exibe os registros em forma de tabela
 * Automaticamente retorna as colunas de contagem e porcentagem
 * Adicionando `limit=#` depois do comando _top_, retorna um numero específico de resultados
@@ -26,12 +26,8 @@ Exemplos:
 	sourcetype=acess_combined action=purchase
 	| top product_name by host limit = 3 countfield= "Units Sold" showperc=f
 
-### Comando _rare_
-O comando retorna os registros que menos aparecem nos seus dados
-* Opções idênticas ao comando _top_
-Exemplo:
-		sourcetype=cisco_wsa_squid
-		| rare sowperc=0 limit=1 s_hostname 
+	sourcetype=cisco_wsa_squid
+	| rare sowperc=0 limit=1 s_hostname 
 		
 ### Comando _stats_
 * _stats_ permite que você calcule estatísticas em cima dos registros que corresponderem a sua consulta
@@ -117,6 +113,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA0MDQxNTgsOTIwODI0NzExLDEwNT
-k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMTU4MzQ5NTEyMCw5MjA4MjQ3MTEsMTA1OT
+k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
