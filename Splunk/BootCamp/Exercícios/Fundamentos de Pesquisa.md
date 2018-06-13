@@ -74,10 +74,15 @@ Custommer IP | Web Server | HTTP Status
 	* __Panel Content__: Statistics
 
 #### Cenário: Além de supervisionar a integridade do servidor, verifique como os funcionários estão usando recursos corporativos. 
+Resultado Final:
+username|usage
+moh
 1. Procure por eventos de dispositivos que estão conectados `sourcetype=cisco_wsa_squid`
 2. Cria uma _table_ com os dispositivos e seus respectivos usuários `username` e `usage`
 3. Salve sua pesquisa como um relatório L2S2
+
+#### Cenário: Extraia o nome do domínio dos dados de email em um campo chamado domínio.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg1MTMyOTcsLTEyMTc3MDkyMTMsLT
-EzNTEyNDc5MDVdfQ==
+eyJoaXN0b3J5IjpbLTQ2NTkyMDcxMCwtMTIxNzcwOTIxMywtMT
+M1MTI0NzkwNV19
 -->
