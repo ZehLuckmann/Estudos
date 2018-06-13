@@ -62,7 +62,8 @@ Custommer IP | Web Server | HTTP Status
 	
 	Resultado: 
 	<Escreva sua consulta aqui>
+5. Salve sua pesquisa como um relatório L2S1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjQ5NjY4MCwtMTIxNzcwOTIxMywtMT
+eyJoaXN0b3J5IjpbMTcyMjEzMzE4MSwtMTIxNzcwOTIxMywtMT
 M1MTI0NzkwNV19
 -->
