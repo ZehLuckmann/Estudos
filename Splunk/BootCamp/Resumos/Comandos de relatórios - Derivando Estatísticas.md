@@ -13,7 +13,7 @@ O comando _top_ busca os valores mais comuns do seu resultado, enquanto o _rare_
 	* Por padrão, 10 registros são exibidos
 	* `limit=0` remove o limite de registros
 Exemplos:
-
+```
 	sourcetype=linux_secure password fail*
 	| top src
 	
@@ -28,7 +28,7 @@ Exemplos:
 
 	sourcetype=cisco_wsa_squid
 	| rare sowperc=0 limit=1 s_hostname 
-		
+```	
 ### Comando _stats_
 * _stats_ permite que você calcule estatísticas em cima dos registros que corresponderem a sua consulta
 * As funções mais comuns são:
@@ -49,19 +49,19 @@ Exemplos:
 	* Valor do campo é case-sensitive
 Exemplos:
 ```
-		sourcetype=vendor_sales
-		|stats count
+sourcetype=vendor_sales
+|stats count
 
-	sourcetype=vendor_sales
-	|stats count as "Number of Retail Store Purchases"
+sourcetype=vendor_sales
+|stats count as "Number of Retail Store Purchases"
 
-	sourcetype=acess_combined
-	| stats count(action) as ActionEvents,
-	count as TotalEvents
-	
-	sourcetype=acess_combined action=*
-	| stats count(eval(action="view")) as Views,
-	  count(eval(action="purchase")) as Purchases
+sourcetype=acess_combined
+| stats count(action) as ActionEvents,
+count as TotalEvents
+
+sourcetype=acess_combined action=*
+| stats count(eval(action="view")) as Views,
+  count(eval(action="purchase")) as Purchases
 ```
 #### 	_by fields_
 * A cláusula _by_ retorna uma contagem para um campo ou grupo de campos
@@ -129,6 +129,6 @@ count as totalEvents by host
      labelfield=host label=TOTALS
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODE3OTY3LDkyMDgyNDcxMSwxMDU5OT
+eyJoaXN0b3J5IjpbMzQyMDczODk5LDkyMDgyNDcxMSwxMDU5OT
 k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
