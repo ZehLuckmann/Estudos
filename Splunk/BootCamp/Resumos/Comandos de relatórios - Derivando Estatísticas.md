@@ -50,7 +50,12 @@ Exemplo:
 
 #### _count_
 * Retorna o número de eventos baseado no critério de pesquisa informado
+* Use a clausula _as_ para renomear o campo de conta
+Exemplos:
+
+	sourcetype=vendor_sales
+	|stats count
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjIzNDYzNjgsOTgwODEwNTQ3LDcwOT
+eyJoaXN0b3J5IjpbLTE4NzgyNDI0NDQsOTgwODEwNTQ3LDcwOT
 k5NTc1N119
 -->
