@@ -30,7 +30,6 @@ Exemplos:
 O comando retorna os registros que menos aparecem nos seus dados
 * Opções idênticas ao comando _top_
 Exemplo:
-		
 		sourcetype=cisco_wsa_squid
 		| rare sowperc=0 limit=1 s_hostname 
 		
@@ -52,7 +51,6 @@ Exemplo:
 	* Exige uma clausula _as_
 	* Aspas duplas são necessárias para o valor do campo
 	* Valor do campo é case-sensitive
-
 Exemplos:
 		sourcetype=vendor_sales
 		|stats count
@@ -84,13 +82,15 @@ Exemplo:
 		| stats dc(s_hostname) as "Websites visited"
 		
 #### _sum(field)_
-* Para campos que contenham um valor num
+* Para campos que contenham um valor numérico, você pode usar para somar
+Exemplo:
+
+
 
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
 * Para limitar os resultados use a opção `limit`
-
 Exemplo:
 
 		sourcetype=vendor_sales
@@ -99,6 +99,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU4NjA2NSw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbLTk3MjgwODgwNCw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
