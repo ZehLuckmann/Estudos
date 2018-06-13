@@ -73,9 +73,9 @@ Custommer IP | Web Server | HTTP Status
 	* __Panel Powered by__: Inline Search
 	* __Panel Content__: Statistics
 
-####  
-	
+#### Cenário: Além de supervisionar a integridade do servidor, verifique como os funcionários estão usando recursos corporativos. 
+1. Procure por eventos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTUxNzU2OCwtMTIxNzcwOTIxMywtMT
-M1MTI0NzkwNV19
+eyJoaXN0b3J5IjpbNzQ3NzQ2MTgyLC0xMjE3NzA5MjEzLC0xMz
+UxMjQ3OTA1XX0=
 -->
