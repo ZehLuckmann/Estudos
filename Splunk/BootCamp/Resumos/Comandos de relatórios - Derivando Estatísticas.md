@@ -87,9 +87,9 @@ Exemplo:
 
 		sourcetype=cisco_wsa_squid
 		| stats sum(sc_bytes) as Bandwidth by s_hostname
-		| sort -Band
+		| sort -Bandwidth
 
-
+#### _avg
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
@@ -102,6 +102,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MjE1NzkyLDkyMDgyNDcxMSwxMDU5OT
+eyJoaXN0b3J5IjpbMzg4MjcxMzE3LDkyMDgyNDcxMSwxMDU5OT
 k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
