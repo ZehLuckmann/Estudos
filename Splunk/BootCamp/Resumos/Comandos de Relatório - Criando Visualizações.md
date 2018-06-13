@@ -59,10 +59,10 @@ index="buttercupgames" "action=purchase"
 | stats sum(bytes) as count
 | gauge count 500000 10000000 20000000 25000000
 ```
-![enter image description here](https://lh3.googleusercontent.com/Wo1WRy_-Yrj2VxtxV4TXRqznguHCVy6SUek9Ncpgrfjdc17JREiu8rUelgoX6CKmOz5A9J1fEQe__A)![enter image description here](https://lh3.googleusercontent.com/EoiNLYB4GDoal4alaxQ1nTVxYMbLtWvt8wiBYgG88NW-Rqp8KINY4i2b1y7GmVlw61QNsIrwsARhLw)
+![enter image description here](https://lh3.googleusercontent.com/Wo1WRy_-Yrj2VxtxV4TXRqznguHCVy6SUek9Ncpgrfjdc17JREiu8rUelgoX6CKmOz5A9J1fEQe__A)![enter image description here](https://lh3.googleusercontent.com/EoiNLYB4GDoal4alaxQ1nTVxYMbLtWvt8wiBYgG88NW-Rqp8KINY4i2b1y7GmVlw61QNsIrwsARhLw)![enter image description here](https://lh3.googleusercontent.com/Z5OUF2n-mH-auklrE-c6dj6eMlvL-pQeBEnajWVw7Vkwpz1uAjaVe8D7-RsWGu04iy_950FRoR6iSA)![enter image description here](https://lh3.googleusercontent.com/1vfwygd5o-pQUV6zUclHwE658y-Bz0df2Up1GfT10z_E_vUkiKxoEJP-TlGKOl9XJRhJwwhPigPljw)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDg5MjA1NCwtMTk1NDQ2ODM5MiwtMT
-A3OTE0NTA4Miw4MTE1Nzk0OTYsNTA3ODY0Mjg5LC0xMDMzMTI3
-ODQsLTIwODQwNTA2NzgsMTY2OTAxODg1NywyMzIxNzEzMTNdfQ
-==
+eyJoaXN0b3J5IjpbLTE0NzcyNTQwNTUsLTE5NTQ0NjgzOTIsLT
+EwNzkxNDUwODIsODExNTc5NDk2LDUwNzg2NDI4OSwtMTAzMzEy
+Nzg0LC0yMDg0MDUwNjc4LDE2NjkwMTg4NTcsMjMyMTcxMzEzXX
+0=
 -->
