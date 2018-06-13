@@ -99,6 +99,11 @@ Exemplo:
 		 
 #### _list(field)_
 * Lista todos os valores para um campo especifico
+Exemplo:
+		sourcetype=cisco_wsa_squid
+		| stats list(s_hostname) as "Websites visited: "
+		  by cs_username
+
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
@@ -111,6 +116,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg2ODk2MzcsOTIwODI0NzExLDEwNT
-k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMTU1Mjk0NjQ0LDkyMDgyNDcxMSwxMDU5OT
+k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
