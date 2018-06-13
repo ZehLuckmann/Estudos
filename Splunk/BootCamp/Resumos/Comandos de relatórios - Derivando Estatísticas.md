@@ -73,26 +73,26 @@ Exemplo:
 #### _distinct_count(field)_ ou _dc()_
 *  Fornece uma contagem de quantos valores exclusivos existem para um dado campo no conjunto de resultados
 Exemplo: 
-
-		sourcetype=cisco_wsa_squid
-		| stats dc(s_hostname) as "Websites visited"
-		
+```
+sourcetype=cisco_wsa_squid
+| stats dc(s_hostname) as "Websites visited"
+``		
 #### _sum(field)_
 * Para campos que contenham um valor numérico, você pode usar para somar
 Exemplo:
-
+```
 		sourcetype=cisco_wsa_squid
 		| stats sum(sc_bytes) as Bandwidth by s_hostname
 		| sort -Bandwidth
-
+```
 #### _avg(field)_
 * Retorna a média de um determinado campo numérico
 Exemplo:
 ```
-sourcetype=cisco_wsa_squid
-| stats avg(sc_bytes) as "Average Bytes"
-by usage
-``	 
+	sourcetype=cisco_wsa_squid
+	| stats avg(sc_bytes) as "Average Bytes"	
+	by usage
+```
 #### _list(field)_ e _values(field)
 * _list_ Lista todos os valores para um campo especifico
 * _values_ Lista os valores únicos para um campo específico
@@ -129,6 +129,6 @@ count as totalEvents by host
      labelfield=host label=TOTALS
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEwOTA5MDcsOTIwODI0NzExLDEwNT
+eyJoaXN0b3J5IjpbLTEzMzQxODM4MDUsOTIwODI0NzExLDEwNT
 k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
