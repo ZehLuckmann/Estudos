@@ -67,9 +67,11 @@ Custommer IP | Web Server | HTTP Status
 7. Salve o dashboard com estes valores
 	* __Dashboard__: New
 	* __Dashboard Title__: IT Ops
-	* __Panel Title__: Sercer  
+	* __Panel Title__: Server Errors
+	* __Panel Powered by__: Inline Search
+	* __Panel Content__: Statistics   
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjU4OTA0NSwtMTIxNzcwOTIxMywtMT
+eyJoaXN0b3J5IjpbLTc0NzIxNTc1MSwtMTIxNzcwOTIxMywtMT
 M1MTI0NzkwNV19
 -->
