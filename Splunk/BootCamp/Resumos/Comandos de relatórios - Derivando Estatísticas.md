@@ -125,8 +125,8 @@ Exemplo:
 		| avg(bytes) as avgBytes,
 		count as totalEvents by host
 		| addcoltotals totalBytes, totalEvents
-	      labelfield=hos
+	      labelfield=host label=TOTALS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzI0MTY3Nyw5MjA4MjQ3MTEsMTA1OT
-k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbLTEzODA4NTQwMDEsOTIwODI0NzExLDEwNT
+k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
