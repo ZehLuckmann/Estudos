@@ -42,7 +42,7 @@ Exemplo:
 * _stats_ permite que você calcule estatísticas em cima dos registros que corresponderem a sua consulta
 * As funções mais comuns são:
 	* _count_ - Conta o número de eventos que corresponde a consulta
-	* *distinct_count*, *dc* - Retorna a contagem dos valores únicos do campo informado
+	* _distinct_count_, _dc_ - Retorna a contagem dos valores únicos do campo informado
 	* _sum_ - Soma os valores de um campo numérico
 	* _avg_ - Retorna a média de um campo numérico
 	* _list_ - Lista todos os valores de um campo específico
@@ -82,8 +82,10 @@ Exemplo:
 		| stats count as quantify by product_name, price
 
 
-#### _distinct_count(field)
+#### _distinct_count(field)_ ou _dc()_
+
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjQxNjQ1NywxMDU5OTk2NDgyLDk4MD
+eyJoaXN0b3J5IjpbLTczOTc1OTMzNiwxMDU5OTk2NDgyLDk4MD
 gxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
