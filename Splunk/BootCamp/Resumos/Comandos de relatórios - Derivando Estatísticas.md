@@ -85,6 +85,9 @@ Exemplo:
 * Para campos que contenham um valor numérico, você pode usar para somar
 Exemplo:
 
+		sourcetype=cisco_wsa_squid
+		| stats sum(sc_bytes) as Bandwidth by s_hostname
+		| sort -Band
 
 
 ### Comando _sort_
@@ -99,6 +102,6 @@ Exemplo:
 		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjgwODgwNCw5MjA4MjQ3MTEsMTA1OT
-k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbNDg3MjE1NzkyLDkyMDgyNDcxMSwxMDU5OT
+k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
