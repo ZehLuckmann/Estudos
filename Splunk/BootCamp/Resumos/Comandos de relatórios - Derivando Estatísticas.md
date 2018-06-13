@@ -122,8 +122,11 @@ Exemplo:
 
 		sourcetype=acess_combined
 		| stats sum(bytes) as totalBytes,
-		|
+		| avg(bytes) as avgBytes,
+		count as totalEvents by host
+		| addcoltotals totalBytes, totalEvents
+	      labelfield=hos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDM3MTk4OCw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbLTM2MzI0MTY3Nyw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
