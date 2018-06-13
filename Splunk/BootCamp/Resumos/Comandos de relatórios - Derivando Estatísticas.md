@@ -31,7 +31,9 @@ Exemplos:
 	| top product_name by host limit = 3 countfield= "Units Sold" showperc=f
 
 ### Comando _rare_
-
+O comando retorna os registros que menos aparecem nos seus dados
+* Opções identicas ao comando _top_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwODEwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbMTkxMzY1NDI2MSw5ODA4MTA1NDcsNzA5OT
+k1NzU3XX0=
 -->
