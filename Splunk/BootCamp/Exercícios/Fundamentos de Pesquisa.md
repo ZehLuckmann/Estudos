@@ -43,6 +43,15 @@ clientip | host | status
 	* Resultado: 
 	* ``<Escreva sua consulta aqui>``
 3. Torne os dados mais apresentáveis definindo um título para as colunas
+
+Custommer IP | Web Server | H
+---------|------|--------|--------
+125.7.55.180|www3|200
+84.34.159.23|www1|200
+84.34.159.23|www1|200
+	
+	* Resultado: 
+	* ``<Escreva sua consulta aqui>``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MzYyODQsLTEzNTEyNDc5MDVdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTkxODkyNCwtMTM1MTI0NzkwNV19
 -->
