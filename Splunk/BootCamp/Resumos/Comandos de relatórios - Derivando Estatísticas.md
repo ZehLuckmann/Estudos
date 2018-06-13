@@ -45,8 +45,9 @@ Exemplo:
 	* *distinct_count*, *dc* - Retorna a contagem dos valores únicos do campo informado
 	* _sum_ - Soma os valores de um campo numérico
 	* _avg_ - Retorna a média de um campo numérico
-	* _list_ - Lista todos os valores de um 
+	* _list_ - Lista todos os valores de um campo específico
+	* _values_ Lista valores exclusivos de um determinado campo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI4ODAzOTAsOTgwODEwNTQ3LDcwOT
-k5NTc1N119
+eyJoaXN0b3J5IjpbLTY3MDA2ODk3NSw5ODA4MTA1NDcsNzA5OT
+k1NzU3XX0=
 -->
