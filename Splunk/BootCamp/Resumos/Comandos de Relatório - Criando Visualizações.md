@@ -31,17 +31,7 @@ index="buttercupgames" action=purchase
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
 ```
-
-
-## Stacked Column Charts
-```
-index="buttercupgames" action=purchase 
-| chart count(productId) by categoryId
-```
-```
-index="buttercupgames" action=purchase 
-| timechart count(productId) by categoryId
-```
+``
 
 ## Bar Charts
 ```
@@ -53,6 +43,6 @@ index="buttercupgames" action=purchase
 | timechart count(productId) by categoryId
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzMxMjc4NCwtMjA4NDA1MDY3OCwxNj
-Y5MDE4ODU3LDIzMjE3MTMxM119
+eyJoaXN0b3J5IjpbLTE5MzE0NzAwOTMsLTEwMzMxMjc4NCwtMj
+A4NDA1MDY3OCwxNjY5MDE4ODU3LDIzMjE3MTMxM119
 -->
