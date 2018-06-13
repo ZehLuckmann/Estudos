@@ -13,7 +13,9 @@ O comando _top_ busca os valores mais comuns do seu resultado:
 *  Por padrão exibe os registros em forma de tabela
 * Automaticamente retorna as colunas de contagem e porcentagem
 * Adicionando `limit=#` depois do comando _top_, retorna um numero específico de resultados
-	* Por padrão, 
+	* Por padrão, 10 registros são exibidos
+	* `limit=0` remove o limite de registros
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk5MjQ3OSw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbLTE0OTQxNDQ2OCw3MDk5OTU3NTddfQ==
 -->
