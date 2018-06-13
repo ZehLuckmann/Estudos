@@ -1,5 +1,4 @@
 # Comandos de Relatórios - Derivando Estatísticas 
-
 ## Reporting Commands
 Nesse módulo você vai aprender sobre os seguintes comandos:
 * _top_ - A busca mostra os registros mais comuns, na ordem decrescente da contagem
@@ -88,6 +87,6 @@ Exemplo:
 
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzg2MjM3Myw5MjA4MjQ3MTEsMTA1OT
+eyJoaXN0b3J5IjpbMTM5MDg4MjY3OSw5MjA4MjQ3MTEsMTA1OT
 k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
