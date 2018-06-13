@@ -50,6 +50,7 @@ Exemplo:
 
 #### _count_
 * Retorna o número de eventos baseado no critério de pesquisa informado
+* Adicionando o argumento field ao comando _count(field)_, retorna o número de eventos deste campo em específico
 * Use a clausula _as_ para renomear o campo de conta
 Exemplos:
 
@@ -58,10 +59,10 @@ Exemplos:
 	
 	sourcetype=vendor_sales
 	|stats count as "Number of Retail Store Purchases"
-
-#### _count(field)_
-* Adicionando 
+	
+	sourcetype=acess_combined
+	|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjIzMDc4Miw5ODA4MTA1NDcsNzA5OT
-k1NzU3XX0=
+eyJoaXN0b3J5IjpbLTE0OTM5MjMxNTgsOTgwODEwNTQ3LDcwOT
+k5NTc1N119
 -->
