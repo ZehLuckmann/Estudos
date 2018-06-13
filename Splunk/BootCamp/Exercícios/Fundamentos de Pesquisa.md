@@ -42,7 +42,7 @@ clientip | host | status
 	
 	* Resultado: 
 	* ``<Escreva sua consulta aqui>``
-3. Torne os dados mais apresentáveis definindo uma 
+3. Torne os dados mais apresentáveis definindo um título para as colunas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEyNDc5MDVdfQ==
+eyJoaXN0b3J5IjpbNzc3MzYyODQsLTEzNTEyNDc5MDVdfQ==
 -->
