@@ -4,10 +4,24 @@ Ao obter valores estatísticos, é possível exibir estes resultados em diversos
 
 ## Line Charts
 ```
-sourcetype=acess_combined action=purchase
-| chart count(product_name) by categoryId
+index="buttercupgames" action=purchase 
+| chart count(productId) by categoryId
+```
+```
+index="buttercupgames" action=purchase 
+| timechart count(productId) by categoryId
+```
+
+## Area Charts
+```
+index="buttercupgames" action=purchase 
+| chart count(productId) by categoryId
+```
+```
+index="buttercupgames" action=purchase 
+| timechart count(productId) by categoryId
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQwNTA2NzgsMTY2OTAxODg1NywyMz
-IxNzEzMTNdfQ==
+eyJoaXN0b3J5IjpbNTMzNzU0MTYsLTIwODQwNTA2NzgsMTY2OT
+AxODg1NywyMzIxNzEzMTNdfQ==
 -->
