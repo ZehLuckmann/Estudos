@@ -41,7 +41,14 @@ index="buttercupgames" action=purchase
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
 ```
+
+## Pie Charts
+```
+index="buttercupgames" action=purchase 
+| chart count(productId) by categoryId
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3ODY0Mjg5LC0xMDMzMTI3ODQsLTIwOD
-QwNTA2NzgsMTY2OTAxODg1NywyMzIxNzEzMTNdfQ==
+eyJoaXN0b3J5IjpbODExNTc5NDk2LDUwNzg2NDI4OSwtMTAzMz
+EyNzg0LC0yMDg0MDUwNjc4LDE2NjkwMTg4NTcsMjMyMTcxMzEz
+XX0=
 -->
