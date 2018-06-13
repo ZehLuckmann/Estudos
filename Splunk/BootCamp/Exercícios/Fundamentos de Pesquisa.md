@@ -69,9 +69,10 @@ Custommer IP | Web Server | HTTP Status
 	* __Dashboard Title__: IT Ops
 	* __Panel Title__: Server Errors
 	* __Panel Powered by__: Inline Search
-	* __Panel Content__: Statistics   
+	* __Panel Content__: Statistics
+8
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzIxNTc1MSwtMTIxNzcwOTIxMywtMT
+eyJoaXN0b3J5IjpbLTQxMDU4MTkwMSwtMTIxNzcwOTIxMywtMT
 M1MTI0NzkwNV19
 -->
