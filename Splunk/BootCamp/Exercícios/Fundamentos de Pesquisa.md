@@ -74,8 +74,9 @@ Custommer IP | Web Server | HTTP Status
 	* __Panel Content__: Statistics
 
 #### Cenário: Além de supervisionar a integridade do servidor, verifique como os funcionários estão usando recursos corporativos. 
-1. Procure por eventos
+1. Procure por eventos de dispositivos da web
+2. Cria uma _table_ com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NzQ2MTgyLC0xMjE3NzA5MjEzLC0xMz
+eyJoaXN0b3J5IjpbLTY0MTk1MjkzLC0xMjE3NzA5MjEzLC0xMz
 UxMjQ3OTA1XX0=
 -->
