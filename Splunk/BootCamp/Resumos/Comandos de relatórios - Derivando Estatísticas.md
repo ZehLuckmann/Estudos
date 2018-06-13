@@ -22,10 +22,13 @@ sourcetype=linux_secure password fail*
 | top src
 ``
 ``
-sourcetype=acess_combined fail*
-| top src
+sourcetype=acess_combined action=purchase
+| top product_name
 ``
-
+``
+sourcetype=acess_combined action=purchase
+| top host, product_name limit = 3 countfield= "Units "
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzAyOTUwNSw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbNzQ0MDk4NzksNzA5OTk1NzU3XX0=
 -->
