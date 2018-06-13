@@ -117,8 +117,13 @@ Exemplo:
 	* Adiciona um totalizador no final da coluna
 	* Para um nome para a linha use `labelfield=<field>`
 	* Se nenhum campo for especificado, todos os campos serão totalizados
-	* Para selecionar quais colunas você deseja totalizar use : `addcoltotals field1, field2` 
+	* Para selecionar quais colunas você deseja totalizar use : `addcoltotals field1, field2, field3`
+Exemplo:
+
+		sourcetype=acess_combined
+		| stats sum(bytes) as totalBytes,
+		|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc5NDUxNTMsOTIwODI0NzExLDEwNT
-k5OTY0ODIsOTgwODEwNTQ3LDcwOTk5NTc1N119
+eyJoaXN0b3J5IjpbLTYyMDM3MTk4OCw5MjA4MjQ3MTEsMTA1OT
+k5NjQ4Miw5ODA4MTA1NDcsNzA5OTk1NzU3XX0=
 -->
