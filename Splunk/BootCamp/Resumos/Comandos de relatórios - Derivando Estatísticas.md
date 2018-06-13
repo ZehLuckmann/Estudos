@@ -84,10 +84,11 @@ Exemplo:
 #### _distinct_count(field)_ ou _dc()_
 
 *  Fornece uma contagem de quantos valores exclusivos existem para um dado campo no conjunto de resultados
-
 Exemplo: 
+		sourcetype=cisco_wsa_squid
+		| stats dc(s_hostname) as "Websites visited"
 		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODU0MTg2NSwxMDU5OTk2NDgyLDk4MD
-gxMDU0Nyw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbOTIwODI0NzExLDEwNTk5OTY0ODIsOTgwOD
+EwNTQ3LDcwOTk5NTc1N119
 -->
