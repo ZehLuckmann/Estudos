@@ -30,7 +30,8 @@ Exemplos:
 	sourcetype=acess_combined action=purchase
 	| top product_name by host limit = 3 countfield= "Units Sold" showperc=f
 
+### Comando _rare_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTUwMzc2OSw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbOTgwODEwNTQ3LDcwOTk5NTc1N119
 -->
