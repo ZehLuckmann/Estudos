@@ -63,17 +63,19 @@ Custommer IP | Web Server | HTTP Status
 	<Escreva sua consulta aqui>
 
 #### Cenário: Adicione sua pesquisa em um novo dashboard.
-5. Salve sua pesquisa como um relatório L2S1
-6. Na opção __Save As__ do menu, selecione __Dashboard Panel__
-7. Salve o dashboard com estes valores
+
+1. Salve sua pesquisa como um relatório L2S1
+2. Na opção __Save As__ do menu, selecione __Dashboard Panel__
+3. Salve o dashboard com estes valores
 	* __Dashboard__: New
 	* __Dashboard Title__: IT Ops
 	* __Panel Title__: Server Errors
 	* __Panel Powered by__: Inline Search
 	* __Panel Content__: Statistics
-8. 
+
+####  
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1OTg2Nzg2LC0xMjE3NzA5MjEzLC0xMz
-UxMjQ3OTA1XX0=
+eyJoaXN0b3J5IjpbLTc4NTUxNzU2OCwtMTIxNzcwOTIxMywtMT
+M1MTI0NzkwNV19
 -->
