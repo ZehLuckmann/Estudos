@@ -12,32 +12,36 @@ index="buttercupgames" action=purchase
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
 ```
-
+![enter image description here](https://lh3.googleusercontent.com/QgRpUuVI-5Sz6nD770RVCNkKIeFmOXCZsnBEcb-WOFQ3JbMIVof1cdvjHasQqHEKGVwul2DySlgsFQ)
 ## Gráfico de Área
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
 ```
+![enter image description here](https://lh3.googleusercontent.com/EEQ-H5meTFSyJf4LtnZAZyUwUrvypoz-PVetd-WLSwdDx3BJI8WPY8wJFMrzAu8sSJ0cPFNsvT__fg)
 ```
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
 ```
-
+![enter image description here](https://lh3.googleusercontent.com/4PhJcDdXobmnSBEmUYl-u4_fFFrcMRMpIAdlqhkgfMvTZ00A73aP2joZoTu3yIU0GH89CTqQXkohKQ)
 ## Gráfico de Colunas
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
 ```
+![enter image description here](https://lh3.googleusercontent.com/MN5iynfuK6uhAjC0IrJ27bDmY5YVZttFLXSh7AiGs3ghnRa9-EpDem8l_dwfuW0MaFc7tiL887acHA)
 ```
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
 ```
+![enter image description here](https://lh3.googleusercontent.com/IMaerquOmLImsR4ODD3uFRo6-XtBDlqXDQt9XgbbKhqsvw4Ahe1MyT00XcqNbENEpWAnaHfEiD-vGQ)
 
 ## Gráfico de Barras
 ```
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
 ```
+
 ```
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
@@ -56,7 +60,7 @@ index="buttercupgames" "action=purchase"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDkyMTc0NSwtMTk1NDQ2ODM5MiwtMT
+eyJoaXN0b3J5IjpbMTg4MjY0NjE1MiwtMTk1NDQ2ODM5MiwtMT
 A3OTE0NTA4Miw4MTE1Nzk0OTYsNTA3ODY0Mjg5LC0xMDMzMTI3
 ODQsLTIwODQwNTA2NzgsMTY2OTAxODg1NywyMzIxNzEzMTNdfQ
 ==
