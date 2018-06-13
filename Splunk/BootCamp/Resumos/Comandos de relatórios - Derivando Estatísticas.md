@@ -97,21 +97,22 @@ Exemplo:
 * _list_ Lista todos os valores para um campo especifico
 * _values_ Lista os valores únicos para um campo específico
 Exemplo:
-		sourcetype=cisco_wsa_squid
-		| stats list(s_hostname) as "Websites visited: "
-		  by cs_username
-
+``
+sourcetype=cisco_wsa_squid
+| stats list(s_hostname) as "Websites visited: "
+by cs_username
+``
 ### Comando _sort_
 * Use para ordenar os seus resultados
 * Use o parâmetro + para crescente(padrão) ou - para decrescente 
 * Para limitar os resultados use a opção `limit`
 Exemplo:
-```
-		sourcetype=vendor_sales
-		| dedup Vendor
-		| table VendorCountry, VendorStateProvince, VendorCity, Vendor
-		| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
-
+``
+sourcetype=vendor_sales
+| dedup Vendor
+| table VendorCountry, VendorStateProvince, VendorCity, Vendor
+| sort - VendorCountry, +VendorStateProvince, VendorCity, Vendor
+``
 ### Comando _addcoltotals_
 * Faz a soma de todos os campos numéricos do seu conjunto de resultado
 	* Adiciona um totalizador no final da coluna
@@ -128,6 +129,6 @@ count as totalEvents by host
      labelfield=host label=TOTALS
 ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNDQ4NDY3LDkyMDgyNDcxMSwxMDU5OT
+eyJoaXN0b3J5IjpbNjgyNTE3ODE5LDkyMDgyNDcxMSwxMDU5OT
 k2NDgyLDk4MDgxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
