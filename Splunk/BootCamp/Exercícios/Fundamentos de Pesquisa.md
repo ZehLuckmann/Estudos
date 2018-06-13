@@ -6,7 +6,7 @@
 Estes exercícios vão utilizar os comandos _fields_, _table_, _erex_ e _multikv_. 
 
 ### Passo a passo 
-Cenário: Verifique se há problemas com compras de clientes na loja on-line.
+#### Cenário: Verifique se há problemas com compras de clientes na loja on-line.
 
 Exemplo de resultado final: 
 Customer IP | Web Server | HTTP Status 
@@ -18,7 +18,6 @@ Customer IP | Web Server | HTTP Status
 1. Pesquise transações on-line `sourcetype = access_combined`
 	* Use o comando _table_
 	* Exiba apenas os campos clientip, host, action e status.
-	
 		
 clientip | host | action | status
 ---------|------|--------|-------------
@@ -62,6 +61,8 @@ Custommer IP | Web Server | HTTP Status
 	
 	Resultado: 
 	<Escreva sua consulta aqui>
+
+Cenário: Verifique se há problemas com compras de clientes na loja on-line.
 5. Salve sua pesquisa como um relatório L2S1
 6. Na opção __Save As__ do menu, selecione __Dashboard Panel__
 7. Salve o dashboard com estes valores
@@ -73,6 +74,6 @@ Custommer IP | Web Server | HTTP Status
 8. 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTQyMDE1LC0xMjE3NzA5MjEzLC0xMz
+eyJoaXN0b3J5IjpbNTc1ODMwMzg5LC0xMjE3NzA5MjEzLC0xMz
 UxMjQ3OTA1XX0=
 -->
