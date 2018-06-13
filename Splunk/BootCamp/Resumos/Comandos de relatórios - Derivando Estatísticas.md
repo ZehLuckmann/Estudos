@@ -49,6 +49,7 @@ Exemplo:
 	* _values_ Lista valores exclusivos de um determinado campo
 
 #### _count_
+
 * Retorna o número de eventos baseado no critério de pesquisa informado
 * Use a clausula _as_ para renomear o campo de conta
 * Adicionando o argumento field ao comando _count(field)_, retorna o número de eventos deste campo
@@ -74,8 +75,9 @@ Exemplos:
 	  count(eval(action="purchase")) as Purchases
 #### 	_by fields_
 
+* A cláusula _by_ retorna uma contagem para um campo ou grupo de campos
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk5MjE5NywxMDU5OTk2NDgyLDk4MD
-gxMDU0Nyw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbNzkwMTk2ODk2LDEwNTk5OTY0ODIsOTgwOD
+EwNTQ3LDcwOTk5NTc1N119
 -->
