@@ -27,8 +27,12 @@ sourcetype=acess_combined action=purchase
 ``
 ``
 sourcetype=acess_combined action=purchase
-| top host, product_name limit = 3 countfield= "Units "
+| top host, product_name limit = 3 countfield= "Units Sold" showperc=f
+``
+``
+sourcetype=acess_combined action=purchase
+| top product_name by host limit = 3 countfield= "Units Sold" showperc=f
 ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MDk4NzksNzA5OTk1NzU3XX0=
+eyJoaXN0b3J5IjpbLTk4NDc4MzA4OSw3MDk5OTU3NTddfQ==
 -->
