@@ -50,9 +50,11 @@ Exemplo:
 
 #### _count_
 * Retorna o número de eventos baseado no critério de pesquisa informado
+* Use a clausula _as_ para renomear o campo de conta
 * Adicionando o argumento field ao comando _count(field)_, retorna o número de eventos deste campo
-* Para contar valores específicos de um determinado campo, use _count_ junto com a função
- * Use a clausula _as_ para renomear o campo de conta
+* Para contar valores específicos de um determinado campo, use _count_ junto com a função _eval_
+	* Exige uma clausula _as_
+	* Aspas du
 
 Exemplos:
 
@@ -66,6 +68,6 @@ Exemplos:
 	| stats count(action) as ActionEvents,
 	count as TotalEvents
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTIyNzgxMywxMDU5OTk2NDgyLDk4MD
-gxMDU0Nyw3MDk5OTU3NTddfQ==
+eyJoaXN0b3J5IjpbNTIyMDkzNzk1LDEwNTk5OTY0ODIsOTgwOD
+EwNTQ3LDcwOTk5NTc1N119
 -->
