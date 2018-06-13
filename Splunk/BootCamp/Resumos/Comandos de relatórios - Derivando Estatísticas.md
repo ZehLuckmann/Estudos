@@ -72,8 +72,10 @@ Exemplos:
 	sourcetype=acess_combined action=*
 	| stats count(eval(action="view")) as Views,
 	  count(eval(action="purchase")) as Purchases
-#### 	so
+#### 	_by fields_
+
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzE5Mjc0MywxMDU5OTk2NDgyLDk4MD
+eyJoaXN0b3J5IjpbLTE4Njk5MjE5NywxMDU5OTk2NDgyLDk4MD
 gxMDU0Nyw3MDk5OTU3NTddfQ==
 -->
