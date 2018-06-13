@@ -7,7 +7,7 @@ Ao obter valores estatísticos, é possível exibir estes resultados em diversos
 index="buttercupgames" action=purchase 
 | chart count(productId) by categoryId
 ```
-
+![enter image description here](https://lh3.googleusercontent.com/1Hv4AyKg4RAx0LHF7So6anJNZD1cnh98_62cCyL2B5JRyRLzyRlllxD5BFuv9ZaCGWEFR8VZif8bCg)
 ```
 index="buttercupgames" action=purchase 
 | timechart count(productId) by categoryId
@@ -56,7 +56,8 @@ index="buttercupgames" "action=purchase"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ0NjgzOTIsLTEwNzkxNDUwODIsOD
-ExNTc5NDk2LDUwNzg2NDI4OSwtMTAzMzEyNzg0LC0yMDg0MDUw
-Njc4LDE2NjkwMTg4NTcsMjMyMTcxMzEzXX0=
+eyJoaXN0b3J5IjpbMTA3MDkyMTc0NSwtMTk1NDQ2ODM5MiwtMT
+A3OTE0NTA4Miw4MTE1Nzk0OTYsNTA3ODY0Mjg5LC0xMDMzMTI3
+ODQsLTIwODQwNTA2NzgsMTY2OTAxODg1NywyMzIxNzEzMTNdfQ
+==
 -->
