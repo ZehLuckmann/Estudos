@@ -1,2 +1,0 @@
-# Estudos
-Resumos, exemplos, materiais
