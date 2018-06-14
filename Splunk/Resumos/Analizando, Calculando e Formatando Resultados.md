@@ -18,8 +18,8 @@
 	* Aritméticos:  + - * / %
 	*  Concatenação: + .
 	* Condicionais: AND OR NOT XOR < > <= >= != = == LIKE
-*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzQzMzk4NywxMDY4NDM2MzEzLC0xNT
-c0MTAyNDg4XX0=
+eyJoaXN0b3J5IjpbLTE5OTEyNjg1MzcsMTkyMzQzMzk4NywxMD
+Y4NDM2MzEzLC0xNTc0MTAyNDg4XX0=
 -->
