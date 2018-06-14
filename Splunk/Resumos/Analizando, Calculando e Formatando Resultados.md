@@ -18,8 +18,9 @@
 	* Aritméticos:  + - * / %
 	*  Concatenação: + .
 	* Condicionais: AND OR NOT XOR < > <= >= != = == LIKE
-* 
+#### Exemplo: Calculando
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTg1NDM1MywtMTk5MTI2ODUzNywxOT
-IzNDMzOTg3LDEwNjg0MzYzMTMsLTE1NzQxMDI0ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwNTM1Mjg5MjMsMTkyNTg1NDM1MywtMT
+k5MTI2ODUzNywxOTIzNDMzOTg3LDEwNjg0MzYzMTMsLTE1NzQx
+MDI0ODhdfQ==
 -->
