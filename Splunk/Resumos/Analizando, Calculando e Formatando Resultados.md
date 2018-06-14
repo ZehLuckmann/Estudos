@@ -14,8 +14,9 @@
 	* Calcular expressões
 	* Colocar um valor em um campo
 	* Usar o campos da pesquisa ou outras expressões
-* 
+* Tipo de operadores
+	* Aritméticos:  + - * / %
+	*  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ2MDU1ODcsLTE1NzQxMDI0ODhdfQ
-==
+eyJoaXN0b3J5IjpbMTExMTI1MzAzOCwtMTU3NDEwMjQ4OF19
 -->
