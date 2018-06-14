@@ -27,10 +27,13 @@ Obter os valores de consumo de banda em bytes é difícil, o ideal é converter 
 5. Remover o campo Bytes
 ```
 sourcetype=cisco_wsa_squid
-| stats sum(sc_bytes) as Bytes b
+| stats sum(sc_bytes) as Bytes by usage
+| eval bandwith = round(Bytes/(1024*1024), 2)
+| sort -bandwidth
+| rename bandwidth as "Bandwi
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODUzNjQ1OSwxOTI1ODU0MzUzLC0xOT
-kxMjY4NTM3LDE5MjM0MzM5ODcsMTA2ODQzNjMxMywtMTU3NDEw
-MjQ4OF19
+eyJoaXN0b3J5IjpbMTgzNDA0MTQ3LDE5MjU4NTQzNTMsLTE5OT
+EyNjg1MzcsMTkyMzQzMzk4NywxMDY4NDM2MzEzLC0xNTc0MTAy
+NDg4XX0=
 -->
