@@ -20,8 +20,10 @@
 	* Condicionais: AND OR NOT XOR < > <= >= != = == LIKE
 #### Exemplo: Convertendo valores
 Obter os valores de consumo de banda em bytes é difícil, o ideal é converter o mesmo para uma unidade como o megabyte
+1. Calcular o numero de bytes por tipo de uso
+2. C
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NzAwOTg5LDE5MjU4NTQzNTMsLTE5OT
-EyNjg1MzcsMTkyMzQzMzk4NywxMDY4NDM2MzEzLC0xNTc0MTAy
-NDg4XX0=
+eyJoaXN0b3J5IjpbMTYxMDE1MTQwMCwxOTI1ODU0MzUzLC0xOT
+kxMjY4NTM3LDE5MjM0MzM5ODcsMTA2ODQzNjMxMywtMTU3NDEw
+MjQ4OF19
 -->
