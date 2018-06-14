@@ -16,7 +16,8 @@
 	* Usar o campos da pesquisa ou outras expressões
 * Tipo de operadores
 	* Aritméticos:  + - * / %
-	*  
+	*  Concatenação: + .
+	* Condicionais: AND OR NOT XOR < > <= >= != = == LIKE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTI1MzAzOCwtMTU3NDEwMjQ4OF19
+eyJoaXN0b3J5IjpbMTA2ODQzNjMxMywtMTU3NDEwMjQ4OF19
 -->
