@@ -30,10 +30,11 @@ sourcetype=cisco_wsa_squid
 | stats sum(sc_bytes) as Bytes by usage
 | eval bandwith = round(Bytes/(1024*1024), 2)
 | sort -bandwidth
-| rename bandwidth as "Bandwi
+| rename bandwidth as "Bandwidth (MB)"
+| fields - Bytes
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDA0MTQ3LDE5MjU4NTQzNTMsLTE5OT
-EyNjg1MzcsMTkyMzQzMzk4NywxMDY4NDM2MzEzLC0xNTc0MTAy
-NDg4XX0=
+eyJoaXN0b3J5IjpbMTk4ODY3ODU4MCwxOTI1ODU0MzUzLC0xOT
+kxMjY4NTM3LDE5MjM0MzM5ODcsMTA2ODQzNjMxMywtMTU3NDEw
+MjQ4OF19
 -->
