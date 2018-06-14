@@ -6,6 +6,7 @@
 	* Útil para cálculos como adição, subtração, multiplicação e divisão
 	* Não sobrescreve os dados no index
 * Suporta uma variedade de funções
+*  Os resultados do 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwNjM1ODk0LC0xNTc0MTAyNDg4XX0=
+eyJoaXN0b3J5IjpbMTMxNzA5MjA5LC0xNTc0MTAyNDg4XX0=
 -->
