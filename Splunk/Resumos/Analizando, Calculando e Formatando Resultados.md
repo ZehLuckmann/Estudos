@@ -18,9 +18,10 @@
 	* Aritméticos:  + - * / %
 	*  Concatenação: + .
 	* Condicionais: AND OR NOT XOR < > <= >= != = == LIKE
-#### Exemplo: Calculando
+#### Exemplo: Convertendo valores
+Obter os valores de consumo de banda em bytes é difícil, o ideal é converter o mesmo para uma unidade como o megabyte
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM1Mjg5MjMsMTkyNTg1NDM1MywtMT
-k5MTI2ODUzNywxOTIzNDMzOTg3LDEwNjg0MzYzMTMsLTE1NzQx
-MDI0ODhdfQ==
+eyJoaXN0b3J5IjpbODM1NzAwOTg5LDE5MjU4NTQzNTMsLTE5OT
+EyNjg1MzcsMTkyMzQzMzk4NywxMDY4NDM2MzEzLC0xNTc0MTAy
+NDg4XX0=
 -->
