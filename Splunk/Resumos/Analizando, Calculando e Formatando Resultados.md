@@ -9,6 +9,9 @@
 *  Os resultados do _eval_ são escritos em um campo especificado
 	* Pode ser um campo novo ou um já existente
 	* Se o campo de destino existir, a informação é substituída pelo resultado do _eval_
+	* Os valores dos campos são tratados de forma case-sensitive
+* O comando _ eval te permite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTk1MTYxLC0xNTc0MTAyNDg4XX0=
+eyJoaXN0b3J5IjpbLTE0MzgwMjMzNTAsLTE1NzQxMDI0ODhdfQ
+==
 -->
