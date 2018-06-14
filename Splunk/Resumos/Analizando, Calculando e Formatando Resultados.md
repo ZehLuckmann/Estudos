@@ -21,9 +21,11 @@
 #### Exemplo: Convertendo valores
 Obter os valores de consumo de banda em bytes é difícil, o ideal é converter o mesmo para uma unidade como o megabyte
 1. Calcular o numero de bytes por tipo de uso
-2. C
+2. Criar um novo campo chamado `bandwidth`
+3. Converter o valor de Bytes para MB, dividindo o campo por (1024*1024)
+4. Arredondar o 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDE1MTQwMCwxOTI1ODU0MzUzLC0xOT
-kxMjY4NTM3LDE5MjM0MzM5ODcsMTA2ODQzNjMxMywtMTU3NDEw
-MjQ4OF19
+eyJoaXN0b3J5IjpbLTE0NDM4ODA1NDMsMTkyNTg1NDM1MywtMT
+k5MTI2ODUzNywxOTIzNDMzOTg3LDEwNjg0MzYzMTMsLTE1NzQx
+MDI0ODhdfQ==
 -->
