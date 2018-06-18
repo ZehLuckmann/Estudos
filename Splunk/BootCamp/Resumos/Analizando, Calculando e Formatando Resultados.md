@@ -39,8 +39,10 @@ sourcetype=cisco_wsa_squid
 sourcetype=acess_combined product_name=* action=purchase
 | stats sum(price) as total_list_price,
   sum(sale_price as total_sale_price by product_name
-| eval discount = round((total_list_price - total_sale_price)/total
+| eval discount = round((total_list_price - total_sale_price)/total_list_price)*100)
+|sort -dicount
+|eval discount = discount."%"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIwNjM0MTIsMTk4ODY3ODU4MF19
+eyJoaXN0b3J5IjpbMTEyOTMzNjUzNSwxOTg4Njc4NTgwXX0=
 -->
