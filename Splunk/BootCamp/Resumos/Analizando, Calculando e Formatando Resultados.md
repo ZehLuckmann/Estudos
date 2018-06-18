@@ -35,7 +35,7 @@ sourcetype=cisco_wsa_squid
 ```
 #### Exemplo: Calculando valores
 
-Calcular o preço real de um produt
+Calcular o preço real de um produto e o seu preço na promoção e exibir os valores de porcentagem de desconto
 ```
 sourcetype=acess_combined product_name=* action=purchase
 | stats sum(price) as total_list_price,
@@ -46,6 +46,6 @@ sourcetype=acess_combined product_name=* action=purchase
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwODMzMjc1LDExMjkzMzY1MzUsMTk4OD
-Y3ODU4MF19
+eyJoaXN0b3J5IjpbMTUzMTc2NDU1OSwxMTI5MzM2NTM1LDE5OD
+g2Nzg1ODBdfQ==
 -->
