@@ -33,7 +33,13 @@ sourcetype=cisco_wsa_squid
 | rename bandwidth as "Bandwidth (MB)"
 | fields - Bytes
 ```
-#### Exemplo: Calculando va
+#### Exemplo: Calculando valores
+
+```
+sourcetype=acess_combined product_name=* action=purchase
+| stats sum(price) as total_list_price,
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NzE0NSwxOTg4Njc4NTgwXX0=
+eyJoaXN0b3J5IjpbMTQ4MzcxODY1MiwxOTg4Njc4NTgwXX0=
 -->
