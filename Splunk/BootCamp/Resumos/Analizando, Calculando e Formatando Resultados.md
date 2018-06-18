@@ -33,6 +33,7 @@ sourcetype=cisco_wsa_squid
 | rename bandwidth as "Bandwidth (MB)"
 | fields - Bytes
 ```
+#### Exemplo: Calculando va
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODY3ODU4MF19
+eyJoaXN0b3J5IjpbNjg0NzE0NSwxOTg4Njc4NTgwXX0=
 -->
