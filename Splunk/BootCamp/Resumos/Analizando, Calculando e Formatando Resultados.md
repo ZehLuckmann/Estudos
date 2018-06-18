@@ -20,11 +20,6 @@
 	* Condicionais: AND OR NOT XOR < > <= >= != = == LIKE
 #### Exemplo: Convertendo valores
 Obter os valores de consumo de banda em bytes é difícil, o ideal é converter o mesmo para uma unidade como o megabyte
-1. Calcular o numero de bytes por tipo de uso
-2. Criar um novo campo chamado `bandwidth`
-3. Converter o valor de Bytes para MB, dividindo o campo por (1024*1024)
-4. Arredondar o campo para duas casas decimais
-5. Remover o campo Bytes
 ```
 sourcetype=cisco_wsa_squid
 | stats sum(sc_bytes) as Bytes by usage
@@ -46,6 +41,6 @@ sourcetype=acess_combined product_name=* action=purchase
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTc2NDU1OSwxMTI5MzM2NTM1LDE5OD
-g2Nzg1ODBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjgyOTg5MzksMTEyOTMzNjUzNSwxOT
+g4Njc4NTgwXX0=
 -->
