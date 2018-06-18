@@ -35,6 +35,7 @@ sourcetype=cisco_wsa_squid
 ```
 #### Exemplo: Calculando valores
 
+Calcular o preço real de um produt
 ```
 sourcetype=acess_combined product_name=* action=purchase
 | stats sum(price) as total_list_price,
@@ -43,6 +44,8 @@ sourcetype=acess_combined product_name=* action=purchase
 |sort -dicount
 |eval discount = discount."%"
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTMzNjUzNSwxOTg4Njc4NTgwXX0=
+eyJoaXN0b3J5IjpbMzQwODMzMjc1LDExMjkzMzY1MzUsMTk4OD
+Y3ODU4MF19
 -->
